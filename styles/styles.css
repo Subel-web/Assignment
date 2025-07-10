@@ -72,12 +72,27 @@ li, a{
     background-position: center;
     height: 700px;
 }
-.See-action{
+/* action-head  */
+
+.see-action-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px 159px 0 141px;
 }
 .action-web{
-    justify-content: right;
+    border-radius: 41px;
+    max-width: 1140px;
+}
+/* main part */
+.main-bg{ 
+    background-color: #E5E7FF;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 120px;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
 }
