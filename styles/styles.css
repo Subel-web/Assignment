@@ -1,28 +1,2 @@
-/* reset css */
-*{
-    padding: 0;
-    margin: 0;
-    outline: none;
-    box-sizing: border-box;
-}
-li, a{
-    text-decoration: none; 
-}
-.navbar{
-    text-decoration: none;
-    max-width: 1140px; 
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
 
-}
-.logo{
-    font-size: 34px;
-    color: #4E47FF;
-}
-.button{
-    font-size: ;
 }
