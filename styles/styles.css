@@ -2,8 +2,16 @@
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500px;
   font-style: normal;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  
+
 }
 /* reset css */
 *{
@@ -86,13 +94,39 @@ li, a{
 /* main part */
 .main-bg{ 
     background-color: #E5E7FF;
-    max-width: 1140px;
+    max-width: 1500px;
+    height: 306px;
     margin: 0 auto;
     padding: 130px 150px;
     text-align: center;
     margin-top: 120px;
+    border-radius: 24px;
 }
 .about-items {
     display: flex;
     justify-content: space-around;
+    font-size: 5px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: normal;
+}
+.item-title {
+    font-size: 80px;
+    font-weight: bold;
+}
+.section-title{
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+
+}
+.button-color{
+    color: #4E47FF;
 }
