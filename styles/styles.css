@@ -72,11 +72,12 @@ li, a{
     padding: 12px 35px;
     border-radius: 10px;
     border: none;
-    text-align: center;margin-top: 37px;
+    text-align: center;
+    margin-top: 20px;
 
 }
 .hero-area{
-    background-image: url('/B12A01-landing-launchpad/Assets/Hero-bg.png');
+    background-image: url('/Images/Hero-bg.png');
     background-position: center;
     height: 700px;
 }
@@ -202,4 +203,36 @@ li, a{
 .card-item{
     padding: 30px;
     background-color: #FFFFFF;
+}
+.bg-color{
+  background-color:#F5F8FF;
+ background-size: cover;
+}
+/* Ready-to-focus-section  */
+.bg-color2{
+  background-color: #FFFFFF;
+  width: 1140px;
+  height: 700px;
+  margin: auto;
+  margin-top: 130px;
+  border-radius: 14px;
+}
+.banner-head2{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.img-big{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.ready-head{
+  padding-bottom: 20px;
+}
+.img-style{
+  border-radius: 48px;
+  
 }
