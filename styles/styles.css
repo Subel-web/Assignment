@@ -1,3 +1,46 @@
+
+.join-container {
+  width: 1140px;
+  background-color: #e6e8ff;
+  padding: 60px 0;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.inner-container {
+  width: 856px;
+  text-align: center;
+}
+
+.inner-container h2 {
+  font-size: 28px;
+  color: #1e1e2f;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cart-item h2 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #4e47ff;
+  margin-bottom: 8px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.cart-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+ 
  .raleway-normal {
       font-family: "Raleway", sans-serif;
       font-optical-sizing: auto;
@@ -29,7 +72,7 @@
 
     /* Header Section */
     .hero-area {
-      background-image: url("../Images/hero-bg.png");
+      background-image: url("../Images/Hero-bg.png");
       background-position: center;
       background-size: cover;
       height: 700px;
@@ -323,7 +366,7 @@ button {
 }
 
 .footer-logo {
-  font-size: 48px;
+  font-size: 100px;
   font-weight: bold;
   color: #4d5efc;
   margin-bottom: 16px;
